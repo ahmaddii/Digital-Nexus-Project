@@ -1,0 +1,478 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo{
+    color: #E6400C;
+    
+}
+.nav-item{
+     
+    padding-left: 20px;
+    margin-left: 20px;
+    position: relative;
+    left: 700px;
+    font-size: 1.3rem;
+    
+}
+
+.nav-sign-button{
+    border-style: none;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #E6400C;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.nav-login-button{
+    border-style: none;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #E6400C;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 50px;
+
+
+}
+
+.nav-sign-button:hover{
+    background-color: white;
+    color: #E6400C;
+    transition: 0.4s ease;
+}
+
+.nav-login-button:hover{
+    background-color: white;
+    color: #E6400C;
+    transition: 0.4s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #E6400C !important;
+    transition: color 0.3s ease; 
+}
+
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: white; 
+    color: #E6400C !important;
+}
+.slider2-heading{
+    color: black;
+    
+}
+.slider2-para{
+    color: black;
+}
+
+.slider3-heading{
+    color: black;
+}
+.slider3-para{
+    color: black;
+}
+
+.slider1-heading{
+    color: white;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+    font-size: 60px;
+}
+.slider1-para{
+    color: black;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+    color: white;
+    display: inline-block;
+    border-top: 2px solid white; /* Top border */
+    border-bottom: 2px solid white; /* Bottom border */
+    border-left: none; /* Remove left border */
+    border-right: none; /* Remove right border */
+    padding: 10px 0; /* Adjust padding for spacing */
+    margin-top: 10px;
+    font-size: 20px;
+ 
+}
+.Service{
+    color: #E6400C;
+    font-weight: normal;
+}
+
+a.custom-btn {
+    background-color: #E6400C; /* Custom background color */
+    color: white; /* Button text color */
+    border: none; /* Remove borders */
+    padding: 10px 20px; /* Adjust padding for size */
+    font-size: 18px; /* Text size */
+    border-radius: 5px; /* Rounded corners */
+    text-transform: uppercase; /* Uppercase text */
+    transition: background-color 0.4s ease; /* Smooth hover transition */
+    position: relative;
+    bottom: 200px;
+    right: 400px;
+    top: 2px;
+
+    
+}
+
+a.custom-btn:hover {
+    background-color: white !important;
+    color: #E6400C;
+}
+
+
+.slider2-heading{
+    color: black;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+    font-size: 60px;
+}
+.slider2-para{
+    color: black;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+    display: inline-block;
+    border-top: 2px solid black; /* Top border */
+    border-bottom: 2px solid black; /* Bottom border */
+    border-left: none; /* Remove left border */
+    border-right: none; /* Remove right border */
+    padding: 10px 0; /* Adjust padding for spacing */
+    margin-top: 10px;
+    font-size: 22px;
+ 
+}
+
+.slider3-heading{
+    color: black;
+    position: relative;
+    bottom: 300px;
+    right: 200px;
+    font-size: 60px;
+}
+
+
+.slider3-para{
+    color: black;
+    position: relative;
+    bottom: 300px;
+    right: 20px;
+    display: inline-block;
+    border-top: 2px solid black; /* Top border */
+    border-bottom: 2px solid black; /* Bottom border */
+    border-left: none; /* Remove left border */
+    border-right: none; /* Remove right border */
+    padding: 10px 0; /* Adjust padding for spacing */
+    margin-top: 20px;
+    font-size: 20px;
+ 
+}
+
+.Section1{
+ margin-top: 250px;
+}
+
+.Section1:hover{
+    cursor: pointer;
+}
+
+.navbar-brand:hover{
+ cursor: pointer;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #333; /* Default color */
+    font-size: 24px;
+    padding: 10px 15px;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease; /* Transition for all properties */
+  }
+  
+  .navbar-brand:hover {
+    color: #f39c12; /* Change color on hover */
+    transform: translateY(4px); /* Move the element down slightly */
+  }
+  
+  .navbar-brand:active {
+    color: #e67e22; /* Active color when clicked */
+    transform: scale(0.98); /* Slightly reduce size when clicked */
+  }
+
+
+
+
+.navbar {
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Keeps navbar above all other content */
+    height: 70px; /* Adjust as per your design */
+    background-color: #f8f9fa; /* Optional: ensures a clear background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin-top: 70px; /* Matches the height of the navbar */
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-top: 100px; /* Adjust for taller navbar on smaller screens */
+    }
+}
+header{
+    margin-top: 50px;
+}
+
+.services {
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 200px;   
+    font-family: Roboto;
+    }
+    
+    .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 100px;
+    color: #E6400C;
+    }
+    
+    .service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    }
+    
+    .service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 320px; /* Increased width */
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+    }
+    
+    .service-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #E6400C;
+    }
+    
+    .service-card p {
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    }
+   
+    
+    
+    
+    .service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    }
+    
+    .service-logo {
+    width: 100px; /* Adjust based on your logo size */
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Optional: if you want rounded corners for logos */
+    }
+    
+    .service-logo:hover {
+    transform: scale(1.2) rotate(15deg); /* 3D effect: scaling and slight rotation */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .client-section {
+        text-align: center; /* Centers the heading and content horizontally */
+        padding: 30px 20px; /* Adds padding around the section */
+    }
+
+    .client-section:hover{
+        cursor: pointer;
+    }
+  
+    .client-heading {
+        font-size: 2.5em; /* Adjust the size of the heading */
+        margin-top: 20px;
+        margin-bottom: 100px; /* Adds space below the heading */
+        text-align: center; /* Centers the heading */
+
+    }
+  
+    marquee img {
+        margin: 0 60px; /* Adds horizontal space between the images */
+        height: 200px; /* Adjust the height of the images */
+        vertical-align: middle; /* Aligns images in the center of the marquee */
+    }
+  
+    marquee {
+        padding: 10px 0; /* Adds some vertical padding for better visuals */
+    }
+
+    #contact-me {
+        padding: 50px 0;
+        color: white;
+        font-family: Roboto;
+        
+    }
+    
+    .contact-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 20px;
+        padding-top: 50px;
+    }
+    
+    .contact-message {
+        font-size: 1.1rem;
+        color: black;
+        line-height: 1.6;
+    }
+    
+    .contact-form .form-group {
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    
+    .contact-form .form-control {
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        padding: 15px;
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+  
+    
+    .contact-form button {
+        background-color: #E6400C;
+        color: #fff;
+        padding: 12px 30px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .contact-form button:hover {
+        background-color: rgb(240, 93, 44);
+        color: white;
+    }
+
+.Contact-section
+{
+    margin-top: 100px;
+}
+
+footer{
+    background: linear-gradient(to right, #E6400C, #f8abab);
+    color: #ffebeb;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content p {
+    margin: 10px 0;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+    
+  }
+  
+  .social-icons {
+    margin: 0 10px;
+    display: inline-block;
+    
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+    
+   
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+
+  /* Ensure images scale on smaller screens */
+ /* Basic Styles */
+ .nav-join-button {
+    background-color: #E6400C !important; /* Orange background for Sign Up */
+    border: none;
+    color: white !important; /* White text */
+    margin-right: 20px;
+    font-weight: bold !important;
+  }
+  .nav-sign-button:hover {
+    background-color: rgb(251, 125, 29) !important; /* Darker orange on hover */
+    color: white !important; /* Ensure the text color stays white on hover */
+  }
+ 
+  .submit-button{
+    background-color: #E6400C !important;
+  }
+
+  
