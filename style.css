@@ -12,10 +12,11 @@ body{
 .nav-item{
      
     padding-left: 20px;
-    margin-left: 20px;
+    margin-left: 50px;
     position: relative;
     left: 700px;
     font-size: 1.3rem;
+  
     
 }
 
